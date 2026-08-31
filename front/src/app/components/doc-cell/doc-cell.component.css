@@ -1,0 +1,36 @@
+.doc-cell-container {
+  width: 100%;
+  background-color: #c6eef8;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  min-height: 100px;
+  margin-bottom: 1px;
+  align-items: center;
+  border-bottom-style: outset;
+}
+
+.doc-title-container {
+  max-width: 50%;
+  min-width: 30%;
+  margin-left: 10px;
+}
+
+.doc-cell-container:hover {
+  box-shadow: 0 15px 15px rgb(208, 241, 243);
+  transform: translate3d(0, -2px, 0);
+}
+
+.doc-info-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  max-width: 70%;
+  min-width: 50%;
+}
+
+.doc-delete-container {
+  margin-right: 10px;
+}
